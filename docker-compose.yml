@@ -1,0 +1,8 @@
+version: '3'
+services:
+  nginx:
+    build: .
+    container_name: kontener-fibonacci
+    image: obraz-fibonacci:1
+    ports:
+      - "8080:80"
